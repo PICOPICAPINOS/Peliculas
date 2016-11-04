@@ -1,0 +1,74 @@
+.main {
+    max-width: 900px;   
+    padding: 14px;
+    border:2px solid  #604545;
+    border-radius: 8px;    
+    margin: auto;
+}
+
+.filaBot {    
+    color: white;   
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+input[type=text] {
+    border: 0px solid red;
+    border-radius: 4px;
+    background-color: #908585;
+    color: #fed;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+input[type=button] {
+    width: 200px;
+    background-color: #837575;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 2px;
+    cursor: pointer;
+}
+td {
+    height: 16px;    
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #cba;
+    color: #604545;
+    font-size:16px;
+}
+th {height: 16px;
+    color: white;
+    background-color: #a98;
+}
+tr {height: 16px;
+}
+
+tr > td:nth-child(1), tr > th:nth-child(1){
+    width: 40px;
+}
+
+tr > td:nth-child(2), tr > th:nth-child(2) {
+    width: 40px;
+}
+
+tr > td:nth-child(3), tr > th:nth-child(3) {
+    width: 260px;
+}
+
+tr > td:nth-child(4), tr > th:nth-child(4) {
+    width: 60px;
+}
+
+tr > td:nth-child(5), tr > th:nth-child(5) {
+    width: 200px;
+}
+
+tr > td:nth-child(6), tr > th:nth-child(6) {
+    width: 120px;
+}
