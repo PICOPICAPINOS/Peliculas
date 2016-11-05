@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mis peliculas</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script type="text/javascript" src="js/pelisT.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/estiloPelisT.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="forms">
+            <div>
+                <div> Título: <input type="text" name="tit" id="tit" ></div>
+                <div>Año: <input type="text" name="anio" id="anio" width: 20%;></div>
+            </div>
+            <div>
+                <div>Director: <input type="text" name="director" id="director" size=45></div>
+                <div>Tema: <input type="text" name="tema" id="tema" size=50></div>
+            </div>
+        </div>
+
+            <div class="separador"> </div>
+            <div class="filaBot">
+                <input type="button" name="guardar" id="guardar" value="Guardar">
+                <input type="button" name="modificar" id="modificar" value="Modificar">
+                <input type="button" name="borrar" id="borrar" value="Borrar">
+            </div>
+            <div class="separador"> </div>
+            <table class="table table-condensed">
+                <tr>
+                    <th<input type="radio" name="r"></th>
+                        <th><input type="radio" name="r" disabled></th>
+                        <th>Id</th>
+                        <th>Título</th>
+                        <th>Año</th>
+                        <th>Director</th>
+                        <th>Temática</th>
+                </tr>
+            </table>
+        </div>
+</body>
+
+</html>

@@ -1,74 +1,137 @@
 .main {
-    max-width: 900px;   
-    padding: 14px;
-    border:2px solid  #604545;
-    border-radius: 8px;    
+    max-width: 800px;
+    padding: 6px;
+    border: 2px solid #604545;
     margin: auto;
+    border-radius: 6px;
 }
 
-.filaBot {    
-    color: white;   
+.forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms>div {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.forms div div {
+    margin-bottom: 6px;
+    margin-top: 6px;
+    margin-right: 14px;
+    margin-left: 3px;
+}
+
+.separador {
+    height: 2px;
+    background-color: #604545;
+}
+
+.filaBot {
+    color: white;
+    margin-bottom: 4px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 4px;
+    margin: 5px;
 }
 
 input[type=text] {
     border: 0px solid red;
-    border-radius: 4px;
-    background-color: #908585;
-    color: #fed;
+    border-radius: 3px;
+    background-color: #a99;
+    color: white;
     padding-left: 3px;
     padding-right: 3px;
 }
 
+#tit {
+    width: 300px;
+}
+
+#anio {
+    width: 80px;
+}
+
+#director {
+    width: 240px;
+}
+
+#tema {
+    width: 254px;
+}
+
 input[type=button] {
     width: 200px;
-    background-color: #837575;
+    height: 22px;
+    background-color: #908585;
     border: none;
-    border-radius: 4px;
+    border-radius: 3px;
     color: white;
-    padding: 4px;
+    padding: 0px;
     font-size: 15px;
     text-decoration: none;
     margin: 2px;
     cursor: pointer;
 }
+
+table {
+    margin-top: 6px;
+}
+
 td {
-    height: 16px;    
     padding-left: 3px;
     padding-right: 3px;
-    background-color: #cba;
-    color: #604545;
-    font-size:16px;
+    background-color: #d0c5c5;
+    color: #504545;
+    font-size: 16px;
 }
-th {height: 16px;
+
+th {
+    height: 16px;
     color: white;
-    background-color: #a98;
-}
-tr {height: 16px;
+    background-color: #a99;
 }
 
-tr > td:nth-child(1), tr > th:nth-child(1){
+tr {
+    height: 16px;
+}
+
+.formulario tr>td:nth-child(1) {
+    width: 400px;
+}
+
+.formulario tr>td:nth-child(2) {
+    width: 50px;
+}
+
+tr>td:nth-child(1),
+tr>th:nth-child(1) {
     width: 40px;
 }
 
-tr > td:nth-child(2), tr > th:nth-child(2) {
+tr>td:nth-child(2),
+tr>th:nth-child(2) {
     width: 40px;
 }
 
-tr > td:nth-child(3), tr > th:nth-child(3) {
+tr>td:nth-child(3),
+tr>th:nth-child(3) {
     width: 260px;
 }
 
-tr > td:nth-child(4), tr > th:nth-child(4) {
+tr>td:nth-child(4),
+tr>th:nth-child(4) {
     width: 60px;
 }
 
-tr > td:nth-child(5), tr > th:nth-child(5) {
+tr>td:nth-child(5),
+tr>th:nth-child(5) {
     width: 200px;
 }
 
-tr > td:nth-child(6), tr > th:nth-child(6) {
+tr>td:nth-child(6),
+tr>th:nth-child(6) {
     width: 120px;
 }
