@@ -1,0 +1,40 @@
+{"peliculas":[
+	{
+		"id":1,		
+		"titulo":"Senderos de Gloria",
+		"anio":"1957",
+		"director":"Stanley Kubrick",
+		"tema":"Bélica"		
+	},
+	{
+		"id":2,		
+		"titulo":"El Padrino",
+		"anio":"1972",
+		"director":"Francis Ford Coppola",
+		"tema":"Mafia"			
+	},
+	{
+		"id":3,		
+		"titulo":"E.T.",
+		"anio":"1982",
+		"director":"Steven Spielberg",
+		"tema":"Familiar"			
+	},
+	{
+		"id":4,		
+		"titulo":"La Lista de Schindler",
+		"anio":"1993",
+		"director":"Steven Spielberg",
+		"tema":"Drama"			
+	},			
+	{
+		"id":5,		
+		"titulo":"Salvar al soldado Ryan",
+		"anio":"1998",
+		"director":"Steven Spielberg",
+		"tema":"Bélica"			
+	}
+]
+}
+	
+	
