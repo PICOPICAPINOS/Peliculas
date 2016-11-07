@@ -43,7 +43,8 @@ function cargar() {
 function peticionCompletada(data, status, jqXHR) { 
 
     for (var i = 0; i < data.length; i++) {      
-        $("tbody").append("<tr>" 
+        $("tbody").append("<tr>"
+            +"<td><input type='radio'name='r'></td>" 
             +"<td>" +data[i].id +"</td>" 
             +"<td>" +data[i].titulo +"</td>" 
             +"<td>" +data[i].anio +"</td>" 
